@@ -1,0 +1,52 @@
+{
+  "aliases": {},
+  "mappings": {
+    "properties": {
+      "authors": {
+        "type": "keyword"
+      },
+      "original_publication_year": {
+        "type": "short"
+      },
+      "original_title": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "keyword"
+      },
+      "average_rating": {
+        "type": "scaled_float",
+        "scaling_factor": 100
+      },
+      "ratings_count": {
+        "type": "integer"
+      },
+      "ratings_1": {
+        "type": "integer"
+      },
+      "ratings_2": {
+        "type": "integer"
+      },
+      "ratings_3": {
+        "type": "integer"
+      },
+      "ratings_4": {
+        "type": "integer"
+      },
+      "ratings_5": {
+        "type": "integer"
+      },
+      "image_url": {
+        "type": "keyword"
+      }
+    }
+  },
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 1,
+      "analysis": {},
+      "search": {}
+    }
+  }
+}
