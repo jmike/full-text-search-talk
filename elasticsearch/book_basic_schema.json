@@ -8,9 +8,6 @@
       "original_publication_year": {
         "type": "short"
       },
-      "original_title": {
-        "type": "keyword"
-      },
       "title": {
         "type": "keyword"
       },
@@ -37,7 +34,8 @@
         "type": "integer"
       },
       "image_url": {
-        "type": "keyword"
+        "type": "keyword",
+        "index": false
       }
     }
   },
